@@ -38,7 +38,19 @@ The recovery image replaces boot/application metadata and clears ESP32 NVS state
 
 ## Hardware gallery
 
-An actual-device OLED photograph will be added from the V3 qualification unit before this candidate is promoted beyond experimental prerelease. Rendered mockups are not presented as hardware evidence.
+These frames were captured directly from the qualification unit's SSD1306 framebuffer while the exact V3 candidate was running. They are hardware output, not rendered mockups.
+
+<p align="center">
+  <img src="docs/images/neonpocket-v3-splash-on-device.gif" alt="NeonPocketMC startup captured from the Heltec V3 OLED" width="512">
+</p>
+
+| Home | Bluetooth |
+|---|---|
+| ![Home dashboard](docs/images/neonpocket-v3-home.png) | ![Bluetooth page](docs/images/neonpocket-v3-bluetooth.png) |
+
+| Advert | Power confirmation |
+|---|---|
+| ![Advert page](docs/images/neonpocket-v3-advert.png) | ![Power page](docs/images/neonpocket-v3-power.png) |
 
 ## Status
 
