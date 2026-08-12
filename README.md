@@ -30,7 +30,7 @@ Experimental MeshCore BLE companion firmware for the **Heltec WiFi LoRa 32 V3 wi
 
 ## Install
 
-Download the latest experimental prerelease from [Releases](https://github.com/n30nex/NeonPocketMC-Heltec-V3/releases).
+Download the current experimental [`v1.0.0-rc.2` release](https://github.com/n30nex/NeonPocketMC-Heltec-V3/releases/tag/v1.0.0-rc.2).
 
 - Normal update: flash `NeonPocketMC-Heltec-V3-BLE-app.bin` at offset `0x10000`.
 - Recovery only: flash `NeonPocketMC-Heltec-V3-BLE-recovery-preserves-settings.bin` at offset `0x0`.
@@ -55,7 +55,7 @@ These frames were captured directly from the qualification unit's SSD1306 frameb
 
 ## Status
 
-`v1.0.0-rc.1` is experimental. CI proves the exact target compiles and packages correctly; the release notes identify the physical receipts completed for that exact candidate.
+`v1.0.0-rc.2` is experimental. It adds the triple-press Home/clear shortcut and is CI-qualified on the exact Heltec V3 target. No new physical V3 receipt is claimed for RC2.
 
 ## Upstream and licensing
 
