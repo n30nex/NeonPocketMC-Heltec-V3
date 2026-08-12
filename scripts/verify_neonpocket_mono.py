@@ -42,6 +42,9 @@ require(
     "examples/companion_radio/ui-new/UITask.cpp",
     "isPowerConfirmationVisible",
     "gotoMsgPreviewScreen",
+    "neonGoHome",
+    "curr == msg_preview",
+    "handleTripleClick",
     "HOLD AGAIN",
 )
 
