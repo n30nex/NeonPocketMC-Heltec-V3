@@ -9,6 +9,8 @@ Experimental MeshCore BLE or native-USB companion firmware for the **Heltec WiFi
 > [!WARNING]
 > **Heltec V3 only. Do not flash this on Heltec V4, RCC6, RC52, Wireless Tracker, or a board with different display/radio hardware.** This repository ships separate BLE and native-USB companion images—no Wi-Fi, repeater, or room-server firmware.
 
+**Guided install:** [flasher.canadaverse.org](https://flasher.canadaverse.org/)
+
 ## What is included
 
 - MeshCore 1.17.1 receive-gain fix line, based on exact upstream commit `727fc0512ce08bfd7b499e46daa7fca6eeec730d`.
