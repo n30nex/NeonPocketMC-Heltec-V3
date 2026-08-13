@@ -32,11 +32,12 @@ Experimental MeshCore BLE or native-USB companion firmware for the **Heltec WiFi
 
 ## Install
 
-Download the current experimental [`v1.0.0-rc.2` release](https://github.com/n30nex/NeonPocketMC-Heltec-V3/releases/tag/v1.0.0-rc.2).
+Download the current experimental [`v1.0.0-rc.3` release](https://github.com/n30nex/NeonPocketMC-Heltec-V3/releases/tag/v1.0.0-rc.3).
 
 - Normal update: flash `NeonPocketMC-Heltec-V3-BLE-app.bin` at offset `0x10000`.
 - Wired companion: flash `NeonPocketMC-Heltec-V3-USB-app.bin` at offset `0x10000`.
-- Recovery only: flash `NeonPocketMC-Heltec-V3-BLE-recovery-preserves-settings.bin` at offset `0x0`.
+- BLE recovery: flash `NeonPocketMC-Heltec-V3-BLE-recovery-preserves-settings.bin` at offset `0x0`.
+- USB recovery: flash `NeonPocketMC-Heltec-V3-USB-recovery-preserves-settings.bin` at offset `0x0`.
 
 The recovery image replaces boot/application metadata and clears ESP32 NVS state such as old BLE bonds, but does not extend into the SPIFFS data partition that holds MeshCore identity and preferences. Always verify the published SHA-256 manifest before flashing, attach a suitable antenna before transmitting, and use USB recovery if an experimental candidate fails to boot.
 
@@ -58,7 +59,7 @@ These frames were captured directly from the qualification unit's SSD1306 frameb
 
 ## Status
 
-`v1.0.0-rc.2` is experimental. It adds the triple-press Home/clear shortcut and is CI-qualified on the exact Heltec V3 target. No new physical V3 receipt is claimed for RC2.
+`v1.0.0-rc.3` is experimental. It adds native USB and retains the RC2 triple-press Home/clear shortcut. Both companion targets are CI-qualified; no new physical V3 receipt is claimed for RC3.
 
 ## Upstream and licensing
 
